@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0202B6511DF0DD97007476EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202B6501DF0DD97007476EA /* AppDelegate.swift */; };
+		0202B6531DF0DD97007476EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202B6521DF0DD97007476EA /* ViewController.swift */; };
+		0202B6561DF0DD97007476EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0202B6541DF0DD97007476EA /* Main.storyboard */; };
+		0202B6581DF0DD98007476EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0202B6571DF0DD98007476EA /* Assets.xcassets */; };
+		0202B65B1DF0DD98007476EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0202B6591DF0DD98007476EA /* LaunchScreen.storyboard */; };
+		0202B6661DF0DD98007476EA /* LuvItFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202B6651DF0DD98007476EA /* LuvItFeedTests.swift */; };
+		CB809E215BEFC9C27528CA74 /* Pods_LuvItFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C07F6002ECC2154A71FF1 /* Pods_LuvItFeed.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0202B6621DF0DD98007476EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0202B6451DF0DD96007476EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0202B64C1DF0DD96007476EA;
+			remoteInfo = LuvItFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0202B64D1DF0DD97007476EA /* LuvItFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuvItFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0202B6501DF0DD97007476EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0202B6521DF0DD97007476EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0202B6551DF0DD97007476EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0202B6571DF0DD98007476EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0202B65A1DF0DD98007476EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0202B65C1DF0DD98007476EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0202B6611DF0DD98007476EA /* LuvItFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuvItFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0202B6651DF0DD98007476EA /* LuvItFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuvItFeedTests.swift; sourceTree = "<group>"; };
+		0202B6671DF0DD98007476EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3951AB981F124F1685B7BDDF /* Pods-LuvItFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvItFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuvItFeed/Pods-LuvItFeed.release.xcconfig"; sourceTree = "<group>"; };
+		E74C07F6002ECC2154A71FF1 /* Pods_LuvItFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvItFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE88E4DEB92C30BCB66F04E /* Pods-LuvItFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvItFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuvItFeed/Pods-LuvItFeed.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0202B64A1DF0DD96007476EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB809E215BEFC9C27528CA74 /* Pods_LuvItFeed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0202B65E1DF0DD98007476EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0202B6441DF0DD96007476EA = {
+			isa = PBXGroup;
+			children = (
+				0202B64F1DF0DD97007476EA /* LuvItFeed */,
+				0202B6641DF0DD98007476EA /* LuvItFeedTests */,
+				0202B64E1DF0DD97007476EA /* Products */,
+				19061D72FC410A8DB8231D99 /* Pods */,
+				B3AD9CE792618D252F3CED1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0202B64E1DF0DD97007476EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0202B64D1DF0DD97007476EA /* LuvItFeed.app */,
+				0202B6611DF0DD98007476EA /* LuvItFeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0202B64F1DF0DD97007476EA /* LuvItFeed */ = {
+			isa = PBXGroup;
+			children = (
+				0202B6501DF0DD97007476EA /* AppDelegate.swift */,
+				0202B6521DF0DD97007476EA /* ViewController.swift */,
+				0202B6541DF0DD97007476EA /* Main.storyboard */,
+				0202B6571DF0DD98007476EA /* Assets.xcassets */,
+				0202B6591DF0DD98007476EA /* LaunchScreen.storyboard */,
+				0202B65C1DF0DD98007476EA /* Info.plist */,
+			);
+			path = LuvItFeed;
+			sourceTree = "<group>";
+		};
+		0202B6641DF0DD98007476EA /* LuvItFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				0202B6651DF0DD98007476EA /* LuvItFeedTests.swift */,
+				0202B6671DF0DD98007476EA /* Info.plist */,
+			);
+			path = LuvItFeedTests;
+			sourceTree = "<group>";
+		};
+		19061D72FC410A8DB8231D99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCE88E4DEB92C30BCB66F04E /* Pods-LuvItFeed.debug.xcconfig */,
+				3951AB981F124F1685B7BDDF /* Pods-LuvItFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3AD9CE792618D252F3CED1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E74C07F6002ECC2154A71FF1 /* Pods_LuvItFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0202B64C1DF0DD96007476EA /* LuvItFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0202B66A1DF0DD98007476EA /* Build configuration list for PBXNativeTarget "LuvItFeed" */;
+			buildPhases = (
+				3F23EB1AD68D81A389E0A98B /* [CP] Check Pods Manifest.lock */,
+				0202B6491DF0DD96007476EA /* Sources */,
+				0202B64A1DF0DD96007476EA /* Frameworks */,
+				0202B64B1DF0DD96007476EA /* Resources */,
+				B410F3CD0F9DE5531DC7BA9C /* [CP] Embed Pods Frameworks */,
+				8C0261EF37C302152F69D8EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuvItFeed;
+			productName = LuvItFeed;
+			productReference = 0202B64D1DF0DD97007476EA /* LuvItFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0202B6601DF0DD98007476EA /* LuvItFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0202B66D1DF0DD98007476EA /* Build configuration list for PBXNativeTarget "LuvItFeedTests" */;
+			buildPhases = (
+				0202B65D1DF0DD98007476EA /* Sources */,
+				0202B65E1DF0DD98007476EA /* Frameworks */,
+				0202B65F1DF0DD98007476EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0202B6631DF0DD98007476EA /* PBXTargetDependency */,
+			);
+			name = LuvItFeedTests;
+			productName = LuvItFeedTests;
+			productReference = 0202B6611DF0DD98007476EA /* LuvItFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0202B6451DF0DD96007476EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LuvIT;
+				TargetAttributes = {
+					0202B64C1DF0DD96007476EA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0202B6601DF0DD98007476EA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0202B64C1DF0DD96007476EA;
+					};
+				};
+			};
+			buildConfigurationList = 0202B6481DF0DD96007476EA /* Build configuration list for PBXProject "LuvItFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0202B6441DF0DD96007476EA;
+			productRefGroup = 0202B64E1DF0DD97007476EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0202B64C1DF0DD96007476EA /* LuvItFeed */,
+				0202B6601DF0DD98007476EA /* LuvItFeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0202B64B1DF0DD96007476EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0202B65B1DF0DD98007476EA /* LaunchScreen.storyboard in Resources */,
+				0202B6581DF0DD98007476EA /* Assets.xcassets in Resources */,
+				0202B6561DF0DD97007476EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0202B65F1DF0DD98007476EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F23EB1AD68D81A389E0A98B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0261EF37C302152F69D8EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuvItFeed/Pods-LuvItFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B410F3CD0F9DE5531DC7BA9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuvItFeed/Pods-LuvItFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0202B6491DF0DD96007476EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0202B6531DF0DD97007476EA /* ViewController.swift in Sources */,
+				0202B6511DF0DD97007476EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0202B65D1DF0DD98007476EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0202B6661DF0DD98007476EA /* LuvItFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0202B6631DF0DD98007476EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0202B64C1DF0DD96007476EA /* LuvItFeed */;
+			targetProxy = 0202B6621DF0DD98007476EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0202B6541DF0DD97007476EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0202B6551DF0DD97007476EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0202B6591DF0DD98007476EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0202B65A1DF0DD98007476EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0202B6681DF0DD98007476EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0202B6691DF0DD98007476EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0202B66B1DF0DD98007476EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE88E4DEB92C30BCB66F04E /* Pods-LuvItFeed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuvItFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.luvit.LuvItFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0202B66C1DF0DD98007476EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3951AB981F124F1685B7BDDF /* Pods-LuvItFeed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuvItFeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.luvit.LuvItFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0202B66E1DF0DD98007476EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuvItFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.luvit.LuvItFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuvItFeed.app/LuvItFeed";
+			};
+			name = Debug;
+		};
+		0202B66F1DF0DD98007476EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuvItFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.luvit.LuvItFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuvItFeed.app/LuvItFeed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0202B6481DF0DD96007476EA /* Build configuration list for PBXProject "LuvItFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0202B6681DF0DD98007476EA /* Debug */,
+				0202B6691DF0DD98007476EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0202B66A1DF0DD98007476EA /* Build configuration list for PBXNativeTarget "LuvItFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0202B66B1DF0DD98007476EA /* Debug */,
+				0202B66C1DF0DD98007476EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0202B66D1DF0DD98007476EA /* Build configuration list for PBXNativeTarget "LuvItFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0202B66E1DF0DD98007476EA /* Debug */,
+				0202B66F1DF0DD98007476EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0202B6451DF0DD96007476EA /* Project object */;
+}
