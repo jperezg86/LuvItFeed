@@ -3,5 +3,5 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'LuvItFeed' do
-	pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch => 'master'
+	pod 'Alamofire', '~> 3.0'
 end
