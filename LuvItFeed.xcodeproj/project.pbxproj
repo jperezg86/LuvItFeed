@@ -17,6 +17,8 @@
 		0202B6581DF0DD98007476EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0202B6571DF0DD98007476EA /* Assets.xcassets */; };
 		0202B65B1DF0DD98007476EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0202B6591DF0DD98007476EA /* LaunchScreen.storyboard */; };
 		0202B6661DF0DD98007476EA /* LuvItFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0202B6651DF0DD98007476EA /* LuvItFeedTests.swift */; };
+		022B733A1DF5EB8C00C3C8DC /* LuvCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B73381DF5EB8C00C3C8DC /* LuvCollectionViewCell.swift */; };
+		022B733B1DF5EB8C00C3C8DC /* LuvCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022B73391DF5EB8C00C3C8DC /* LuvCollectionViewCell.xib */; };
 		029C41701DF1DD0200960188 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029C416F1DF1DD0200960188 /* Alamofire.framework */; };
 		FAA32EEF91C645C19ADDE7C5 /* Pods_LuvItFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C07F6002ECC2154A71FF1 /* Pods_LuvItFeed.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		0202B6611DF0DD98007476EA /* LuvItFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuvItFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0202B6651DF0DD98007476EA /* LuvItFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuvItFeedTests.swift; sourceTree = "<group>"; };
 		0202B6671DF0DD98007476EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022B73381DF5EB8C00C3C8DC /* LuvCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuvCollectionViewCell.swift; sourceTree = "<group>"; };
+		022B73391DF5EB8C00C3C8DC /* LuvCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LuvCollectionViewCell.xib; sourceTree = "<group>"; };
 		029C416F1DF1DD0200960188 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/LuvItFeed-amhjeuevpwhnjiehfawgokcfnysa/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		02FEB68F1DF1CC0A0003A72E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		3951AB981F124F1685B7BDDF /* Pods-LuvItFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvItFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuvItFeed/Pods-LuvItFeed.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				0202B6571DF0DD98007476EA /* Assets.xcassets */,
 				0202B6591DF0DD98007476EA /* LaunchScreen.storyboard */,
 				0202B65C1DF0DD98007476EA /* Info.plist */,
+				022B73381DF5EB8C00C3C8DC /* LuvCollectionViewCell.swift */,
+				022B73391DF5EB8C00C3C8DC /* LuvCollectionViewCell.xib */,
 			);
 			path = LuvItFeed;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022B733B1DF5EB8C00C3C8DC /* LuvCollectionViewCell.xib in Resources */,
 				0202B65B1DF0DD98007476EA /* LaunchScreen.storyboard in Resources */,
 				0202B6581DF0DD98007476EA /* Assets.xcassets in Resources */,
 				0202B6561DF0DD97007476EA /* Main.storyboard in Resources */,
@@ -299,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02008FC31DF4DB0C003CE97A /* PostItem.swift in Sources */,
+				022B733A1DF5EB8C00C3C8DC /* LuvCollectionViewCell.swift in Sources */,
 				02008FC51DF4DB4F003CE97A /* Brand.swift in Sources */,
 				02008FC91DF4DB6E003CE97A /* User.swift in Sources */,
 				02008FC71DF4DB65003CE97A /* Product.swift in Sources */,
